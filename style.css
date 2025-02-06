@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(192, 192, 192, 0.956)
+    
+    
+
+}
+.firstPage{
+    display: flex;
+    justify-content: space-between;
+}
+.midImage{
+    margin-top: 0.75rem;
+
+  
+    
+    
+    height: 10rem;
+    width: 37rem;
+   
+    background-image: url("opencode.png");
+    background-size: cover;
+}
+.logo{
+    margin-top: 1rem;
+    background-image: url("nitlogoo.png");
+    background-size: cover;
+    
+    height: 10rem;
+    width: 10rem;
+   
+    position: absolute;
+    left: 5rem;
+
+}
+.box1{
+    height: 30rem;
+    width: 30rem;
+
+    position: absolute;
+    top: 12rem;
+    left: 19rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+}
+.box2{
+    height: 30rem;
+    width: 30rem;
+    
+    position: absolute;
+    top: 12rem;
+    left: 49rem;
+}
+.signin{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    
+}
+#insta{
+    font-size: 2.5rem;
+    color: rgb(162, 60, 77);
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+}
+#gplus{
+    font-size: 2.5rem;
+    color: gray;
+    position: relative;
+    left: 9rem;
+    top: 1rem;
+}
+#in{
+    font-size: 2.5rem;
+    position: relative;
+    left: 15.5rem;
+    top: 1rem;
+}
+.or{
+    font-size: 1.25rem;
+    font-weight:  600;
+    position: relative;
+    top: 1.75rem;
+    left: 10rem;
+    color: gray;
+}
+#mail{
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+    border-radius: 8px;
+
+}
+#pass{
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+    border-radius: 8px;
+ 
+}
+.forgot{
+    font-size: 1.25rem;
+    font-weight:  600;
+    position: relative;
+    top: 6rem;
+    left: 10rem;
+    color: gray;
+}
+.sgn{
+    height: 2.5rem;
+    width: 8rem;
+    position: relative;
+    top: 8rem;
+    left: 12rem;
+    border-radius: 20px;
+    background-color: #f08080;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.box2{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(135deg, #ff6036 0%, #fd267a 33%, #ff4458 66%, #d4004f 100%);
+
+}
+.hello{
+    font-size: 3rem;
+    color: #F8F9FA;
+    font-weight: 700;
+    position: relative;
+    top: 8rem;
+    left: 6rem;
+    
+}
+.pls{
+    font-size: 1.5rem;
+    position: relative;
+    top: 10rem;
+    left: 4.5rem;
+    color: #F8F9FA;
+
+
+
+}
+.jns{
+    font-size: 1.5rem;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    color: #F8F9FA;
+    font-size: 100;
+
+
+}
+.login{
+    position: relative;
+    top: 12rem;
+    left: 10rem;
+    background-color: #ff4458;
+    border-color: black;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+.pers{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 9rem;
+    
+   
+}
+.name{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 2.5rem;
+    left: 2rem;
+}
+#name{
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 1rem;
+    
+    border-radius: 8px;
+    border: none;
+}
+.phone{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 4.5rem;
+    left: 2rem;
+}
+#name{
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 1rem;
+    
+    border-radius: 8px;
+    border: none;
+}
+#branch{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    height: 2rem;
+    width: 21rem;
+    border-radius: 10px;
+    color: #ff4458;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.sel{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 6.5rem;
+    left: 2rem;
+    
+    
+}
+#year{
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+    height: 2rem;
+    width: 21rem;
+    border-radius: 10px;
+    color: #ff4458;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.year{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 8.5rem;
+    left: 2rem;
+    
+    
+}
+.submit{
+    position: relative;
+    top: 12rem;
+    right: 9rem;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    border-color: white;
+    background-color: #ff4458;
+    color: white;
+}
+
+
+
+
+
+
+
+
